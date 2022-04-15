@@ -46,7 +46,6 @@ DLList<E>::~DLList(){
       delete temp;
     }
   }
-
 }
 
 /*
@@ -63,6 +62,7 @@ void DLList<E>::clear(){
     delete temp;
   }
 }
+
 
 /*
 Template for insertFront
@@ -83,6 +83,7 @@ void DLList<E>::insertFront(E item){
   size++;
 }
 
+
 /*
 Template for insertBack
 Function inserts a list node to the back of the list.
@@ -101,6 +102,7 @@ void DLList<E>::insertBack(E item){
   tail = temp;
   size++;
 }
+
 
 /*
 Template for removeFront
@@ -148,6 +150,7 @@ E DLList<E>::removeBack(){
   return item;
 }
 
+
 /*
 Template for peekFront
 Function returns the data value at front of list
@@ -158,6 +161,7 @@ E DLList<E>::peekFront(){
   return head->element;
 }
 
+
 /*
 Template for peekBack
 Function returns the data value at the back of list
@@ -167,6 +171,7 @@ template <typename E>
 E DLList<E>::peekBack(){
   return tail->element;
 }
+
 
 /*
 Template for length
