@@ -1,3 +1,7 @@
+Tony Bautista 
+CPSC 350-02
+April 14, 2020
+
 Assignment 6 Registrar
 ----------------------------------------------------------------------------------------------------
 This folder contains the following files; main.cpp, FileParser.cpp, Simulation.cpp, Student.cpp,
